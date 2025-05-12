@@ -1,0 +1,133 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color:rgb(109, 83, 170);
+ }
+ .titulo{
+ text-align: center;
+ }
+ .nombre{
+  text-align: center;
+  }
+.mibiografia{
+  text-align: center;
+}
+.nombre{
+  text-align: center;
+  color: darkmagenta;
+  transition: transform 0.3s ease;
+}
+.nombre:hover{
+  transform: translateY(-10px)scale(1.1);
+}
+.titulo{
+  text-align: center;
+  color: darkmagenta;
+  transition: transform 0.3s ease;
+}
+.titulo:hover{
+  transform: translateY(-10px)scale(1.1);
+}
+.mibiografia{
+  text-align: center;
+  color: darkmagenta;
+  transition: transform 0.3s ease;
+}
+.mibiografia:hover{
+  transform: translateY(-10px)scale(1.1);
+}
+
+.degradado {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(84, 34, 179);
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 1px 1px 3px rgba(194, 17, 230, 0.541);  /* Sombra suave para mejorar la visibilidad */
+}
+  button{
+  padding: 10px 20px;
+  background-color: #a18cd1; /* violeta */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #c9f0ff; /* celeste */
+  color: #333;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+  width: 220px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px rgba(161, 140, 209, 0.4); /* violeta suave */
+}
+
+
+h1, h2 {
+  text-align: center;
+  color: #a18cd1; /* Violeta */
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  color: #ff91d4; /* rosa vibrante */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.titulo-canciones {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(190, 78, 125);  /* Color sólido para el texto */
+  text-align: center;
+}
+
+.titulo-red-social {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(26, 24, 136, 0.582);  /* Color sólido para el texto */
+  text-align: center;
+}
+
+.mi-peli-fav {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(129, 24, 150);  /* Color sólido para el texto */
+  text-align: center;
+}
